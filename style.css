@@ -26,7 +26,7 @@ body {
   margin-bottom: 30px;
 }
 button {
-  font-size: 1.1vw;
+  font-size:1.5rem;
   font-weight: 700;
   padding: 12px;
   background-color: burlywood;
@@ -43,7 +43,7 @@ button:active {
   color: white;
 }
 .container > p {
-  font-size: 1.6vw;
+  font-size: 1.6rem;
   margin-bottom: 30px;
   color: white;
 }
@@ -51,7 +51,7 @@ button:active {
   color: white;
 }
 .colourcode {
-  font-size: 16px;
+  font-size: 1rem;
   padding: 12px;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -59,4 +59,12 @@ button:active {
   border-right: 3px solid white;
   border-left: 3px solid white;
   margin-bottom: 40px;
+}
+
+@media (max-width:600px){
+  .randombtn{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
 }
