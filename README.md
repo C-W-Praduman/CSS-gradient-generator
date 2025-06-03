@@ -11,6 +11,8 @@ This is a simple and interactive **Random Gradient Generator** built using HTML,
 - 📋 Perfect for quick CSS color inspiration or for learning purposes.
 
 ## 🖼️ Preview
+[Live Preview](https://css-gradient-generator-lovat.vercel.app/)
+
 
 ![Random Gradient Generator Screenshot](screenshot.png)
 
